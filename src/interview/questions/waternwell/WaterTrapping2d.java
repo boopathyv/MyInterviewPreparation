@@ -15,8 +15,8 @@ public class WaterTrapping2d {
 		
 		int[][] inputArray = new int[][] {
 			  {0,1,1,1,0},
+			  {1,0,1,0,0},
 			  {1,0,1,0,1},
-			  {1,0,0,0,1},
 			  {1,1,1,1,1}
 			}; // 14
 		System.out.println("unit.."+trapRainWater(inputArray));
